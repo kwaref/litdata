@@ -90,7 +90,9 @@ function ReportQuestion({
     <div className="flex flex-col items-center justify-center w-full gap-10">
       {trend === 1 ? (
         <>
-          {/* <HorizontalBars chartData={answers} type={type} matrixMap={matrixMap} /> */}
+          {questionId === '172714168' && (
+            <HorizontalBars chartData={answers} type={type} matrixMap={matrixMap} />
+          )}
 
           {type === 'matrix' ? (
             <div className="w-full overflow-hidden overflow-x-auto">
