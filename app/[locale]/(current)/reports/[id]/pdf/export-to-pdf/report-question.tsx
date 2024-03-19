@@ -87,10 +87,10 @@ function ReportQuestion({
     'text-primary-400 border-b border-border px-3 py-4 text-left text-[10px] text-end'
 
   return (
-    <div className="flex w-full flex-col items-center justify-center gap-10">
+    <div className="flex flex-col items-center justify-center w-full gap-10">
       {trend === 1 ? (
         <>
-          <HorizontalBars chartData={answers} type={type} matrixMap={matrixMap} />
+          {/* <HorizontalBars chartData={answers} type={type} matrixMap={matrixMap} /> */}
 
           {type === 'matrix' ? (
             <div className="w-full overflow-hidden overflow-x-auto">
@@ -146,7 +146,7 @@ function ReportQuestion({
         </>
       ) : (
         <>
-          <TrendingBars chartData={exportTrendData} trend={trend} />
+          {/* <TrendingBars chartData={exportTrendData} trend={trend} /> */}
           <div className="w-full overflow-hidden overflow-x-auto">
             <table className="w-full">
               <thead>
@@ -167,7 +167,7 @@ function ReportQuestion({
               <tbody>
                 {answers?.map(({id: choiceId, description}: any, idx: number) => (
                   <tr key={`${choiceId}-${crypto.randomUUID()}`}>
-                    <td className="text-primary-900 border-b border-border px-2 py-4 text-left text-sm">
+                    <td className="px-2 py-4 text-sm text-left border-b text-primary-900 border-border">
                       <div className="inline-flex gap-1.5 items-center w-[190px] min-w-[190px] max-w-[190px]">
                         <div
                           style={{
