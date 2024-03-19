@@ -240,9 +240,7 @@ function ReportQuestion({
     <div className="flex flex-col items-center justify-center w-full gap-10">
       {trend === 1 ? (
         <>
-          {questionsIds.includes(questionId) && (
-            <HorizontalBars chartData={answers} type={type} matrixMap={matrixMap} />
-          )}
+          <HorizontalBars chartData={answers} type={type} matrixMap={matrixMap} />
 
           {type === 'matrix' ? (
             <div className="w-full overflow-hidden overflow-x-auto">
@@ -298,7 +296,7 @@ function ReportQuestion({
         </>
       ) : (
         <>
-          {/* <TrendingBars chartData={exportTrendData} trend={trend} /> */}
+          <TrendingBars chartData={exportTrendData} trend={trend} />
           <div className="w-full overflow-hidden overflow-x-auto">
             <table className="w-full">
               <thead>
