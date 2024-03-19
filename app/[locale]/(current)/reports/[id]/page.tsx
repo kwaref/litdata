@@ -247,26 +247,24 @@ function ReportView({params}: ReportViewProps) {
       <NameDialog />
       <ExportFormatDialog />
       {isOpen && (
-        <div className="bg-white relative mb-5 flex items-center rounded-md border border-border p-6 shadow-sm">
+        <div className="relative flex items-center p-6 mb-5 bg-white border rounded-md shadow-sm border-border">
           <XMarkIcon
             className="text-primary-500 absolute right-2.5 top-3 h-5 w-5 cursor-pointer"
             onClick={updateProfile}
           />
           <div>
-            <h1 className="text-primary-500 text-xl font-semibold leading-7 mb-3">
+            <h1 className="mb-3 text-xl font-semibold leading-7 text-primary-500">
               {t('Banner.title')}
             </h1>
-            <p className="text-primary-400 text-sm leading-5">{t('Banner.description')}</p>
+            <p className="text-sm leading-5 text-primary-400">{t('Banner.description')}</p>
           </div>
         </div>
       )}
 
       {editMode.mode === 'filter' && (
-        <div className="text-primary-500 relative flex w-full flex-col gap-5">
+        <div className="relative flex flex-col w-full gap-5 text-primary-500">
           <div style={{visibility: 'hidden'}} className="absolute max-h-screen overflow-y-auto">
-            <div ref={componentRef}>
-              <ExportToPdf />
-            </div>
+            <div ref={componentRef}>{/* <ExportToPdf /> */}</div>
           </div>
 
           <ComponentToShow />
