@@ -1,0 +1,42 @@
+* { 
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.table-scroll {
+  position: relative;
+  width:100%;
+  z-index: 1;
+  margin: auto;
+  overflow: auto;
+  max-height: 54vh;
+}
+.table-scroll table {
+  width: 100%;
+  min-width: 1280px;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.table-scroll th {
+  padding: 5px;
+}
+.table-scroll thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.table-scroll thead th[data-stuck] {
+  box-shadow: 0 0 16px black;
+}
+
+th:first-child, th:first-child + th {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+}
+thead th:first-child {
+  z-index: 5;
+}

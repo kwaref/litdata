@@ -1,0 +1,84 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+/* Additional styles */
+@import 'additional-styles/utility-patterns.css';
+@import 'additional-styles/flatpickr.css';
+
+@import 'tailwindcss/utilities';
+
+@import url("https://use.typekit.net/eup7vcj.css");
+
+/* @font-face {
+  font-family: Degular Demo;
+  src: local('Degular Demo'), local('Degular Demo'), 
+         url("/DegularDemo-Regular.otf") format('opentype');
+} */
+
+html, body {
+  height: 100%;
+  overflow: hidden !important;
+}
+
+@layer base {
+  :root {
+    --background: 255 255 255;
+    --primary-25: 243 243 246;
+    --primary-50: 230 230 236;
+    --primary-100: 177 177 196;
+    --primary-200: 138 138 167;
+    --primary-300: 84 84 125;
+    --primary-400: 51 51 102;
+    --primary-500: 0 0 66;
+    --primary-900: 0 0 27;
+
+    --secondary-50: 232 250 252;
+    --secondary-600: 0 175 201;
+    --secondary-700: 7 149 173;
+
+    --info: 59 130 246;
+    --info-foreground: 255 255 255;
+    --success: 5 150 105;
+    --success-muted: 16 183 127;
+    --success-foreground: 255 255 255;
+    --danger: 244 62 92;
+    --danger-foreground: 255 255 255;
+    --icon-muted: 203 213 225;
+    --border: 229 229 235;
+  }
+ 
+  /* .dark {
+    --background: #FFFFFF;
+    --foreground: #000;
+    --foreground-muted: #64748B;
+    --primary: #000000;
+    --primary-foreground: #FFFFFF;
+    --accent: #009EFF;
+    --accent-foreground: #FFFFFF;
+    --info: #3B82F6;
+    --info-foreground: #FFFFFF;
+    --success: #059669;
+    --success-muted: #D1FAE5;
+    --success-foreground: #FFFFFF;
+    --danger: #F1477F;
+    --danger-foreground: #FFFFFF;
+    --border: #D1D1D1;
+    --divider: #E1E1E1;
+  } */
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--primary-200));
+  border: none;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(var(--primary-25));
+  border-radius: 8px;
+}

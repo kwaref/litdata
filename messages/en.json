@@ -1,0 +1,484 @@
+{
+  "Common": {
+    "soon": "Comming soon",
+    "date-from": "Date from:",
+    "date-to": "Date to:",
+    "saveChanges": "Save Changes",
+    "save": "Save",
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "search-select": "Search / Select",
+    "edit": "Edit",
+    "delete": "Delete",
+    "share": "Share",
+    "back": "Back",
+    "send": "Send",
+    "proceed": "Proceed",
+    "onboarding": {
+      "next": "Next",
+      "back": "Back",
+      "skip": "Skip",
+      "start": "Start Guide",
+      "gotit": "Got It",
+      "ready": "Ready!"
+    },
+    "from": "From:",
+    "to": "To:"
+  },
+  "Dashboard": {
+    "morning": "morning",
+    "afternoon": "afternoon",
+    "evening": "evening",
+    "h1-name": "Good {status}, {fullname}",
+    "p-description": "Here is what’s happening with your projects today:",
+    "licence-expiry": "Your Membership has Expired",
+    "licence-expiry-salute": "Best, Lit Data",
+    "licence-expiry-description": "Your membership with us has expired. Please contact sales at lit@litdata.org to renew and continue enjoying exclusive benefits.",
+    "quick-actions": {
+      "header": "Quick actions",
+      "user-action": {
+        "title": "Add User",
+        "description": "Efficiently include a new user to your platform.",
+        "action": "Create now"
+      },
+      "company-action": {
+        "title": "Create Company",
+        "description": "Quickly add a new company to the system.",
+        "action": "Create now"
+      },
+      "filter-action": {
+        "title": "Filter Report",
+        "description": "Customized report tailored to your analysis needs.",
+        "action": "Create now"
+      },
+      "crosstab-action": {
+        "title": "Crosstab Report",
+        "description": "Seamlessly craft a detailed report for data exploration.",
+        "action": "Create now"
+      }
+    },
+    "last-2-reports": {
+      "header": "Last 2 Lit Data Reports",
+      "empty": "You haven't received any reports yet. Stay tuned for valuable insights as your reports start rolling in."
+    },
+    "last-5-reports": {
+      "header": "Your last 5 reports",
+      "empty": "Create your first report using the quick actions above. Get started now!"
+    },
+    "last-report-generated": {
+      "header": "The last reports generated",
+      "empty": "<header>No reports yet</header><description>Create your first report using the quick actions above. Get started now!</description>"
+    },
+    "all-reports": "All my reports",
+    "widget-list-header": "Analytics Proprietary Questions",
+    "widgets": {
+      "view-filters": "View Filters",
+      "hide-filters": "Hide Filters",
+      "view-answers": "View Answers",
+      "hide-answers": "Hide Answers",
+      "remove-from-dashboard": "Remove from dashboard",
+      "open-in-new-tab": "Open in a new tab",
+      "view-datatable": "Data table",
+      "name": "NAME",
+      "responses": "RESPONSES",
+      "number": "NO.",
+      "answers": "ANSWERS",
+      "no-filters": "No filters applied",
+      "dialog": {
+        "title": "Delete Chart from Dashboard",
+        "text": "Are you sure you want to delete this chart from your dashboard? Don't worry, this action will not alter the data in your generated reports.",
+        "cancel": "Cancel",
+        "delete":"Delete Chart",
+        "success-message": "Chart removed successfully",
+        "limit-header": "Widget Limit Reached!",
+        "limit-message": "You've reached the maximum limit of 6 widgets on your dashboard. Consider removing existing widgets.",
+        "ok": "Got it!"
+      }
+    }
+  },
+  "Sidebar": {
+    "span-title": "Pages",
+    "client-label-1": "Dashboard",
+    "client-label-2": "My Reports",
+    "admin-label-1": "Dashboard",
+    "admin-label-2": "Users",
+    "admin-label-3": "Companies",
+    "admin-label-4": "Sync Data"
+  },
+  "Navbar": {
+    "button-settings": "Settings",
+    "button-logout": "Log Out"
+  },
+  "SignUpForm": {
+    "toast-success": "Your request has been recieved successfully, wait for a confirmation email.",
+    "label-name": "Name",
+    "label-username": "Username",
+    "label-email": "Email",
+    "label-company": "Company",
+    "span-test": "Request an account for testing purposes",
+    "button-send": "Send Request",
+    "button-account": "Already have an account? Sign in"
+  },
+  "Report": {
+    "forbidden": "Not avaiable",
+    "by": "By:",
+    "by-you": "Shared by: You",
+    "title": "Custom Reports",
+    "btn-create": "New report",
+    "menu-1": "Filter report",
+    "menu-2": "Crosstab report",
+    "toast-delete": "Report deleted",
+    "empty": "You haven't created any reports yet. Get started by clicking the 'New report' button. Choose between Filter or Crosstab reports to tailor your insights.",
+    "actions": {
+      "edit": "Edit",
+      "clone": "Clone",
+      "send": "Send",
+      "delete": "Delete"
+    },
+    "share-drawer": "Select all companies and their members",
+    "share-drawer-members": "Select all members",
+    "share-report": "Share Report",
+    "share-tooltip": "This report is shared.",
+    "share-tooltip-client": "This report is shared with you.",
+    "Headers": {
+      "title-dialog": "Report created on {date}",
+      "toast-success": "Report created successfully",
+      "toast-success-update": "Report updated successfully",
+      "span-generate": "Generate report",
+      "span-download-report": "Download report",
+      "span-download": "Download",
+      "span-save": "Save",
+      "Sidenav": {
+        "span-filters": "Filters",
+        "span-filter": "Filter",
+        "span-newFilter": "Add",
+        "span-newCrosstab": "Add",
+        "span-editCrossTab": "Edit",
+        "span-listCrosstab": "Crosstabs",
+        "span-selectFilter": "Select Filter"
+      }
+    },
+    "SelectSurvey": {
+      "header": "Select Survey",
+      "subheader": "You are about to delete this report. This action is irreversible. Are you sure you want to proceed?",
+      "yes": "Yes, delete report",
+      "no": "Cancel",
+      "missing-permissions": "You cannot create a new report because your company does not have the necessary permissions.",
+      "forbiden-header": "Create report"
+    },
+    "DeleteDialog": {
+      "header": "Confirm deletion",
+      "subheader": "You are about to delete this report. This action is irreversible. Are you sure you want to proceed?",
+      "yes": "Yes, delete report",
+      "no": "Cancel"
+    },
+    "NameDialog": {
+      "header": "Edit name",
+      "name": "Name",
+      "toast-success": "Report name updated"
+    },
+    "Banner": {
+      "title": "Dive deeper into the metrics that matter to you",
+      "description": "Custom reports lets you choose the metrics you want to dig deeper into so you can get more from your data. Start by creating a new filter."
+    },
+    "Filters": {
+      "filter-by-questions": "By question / answer",
+      "filter-by-date": "By date",
+      "filter-by-age": "By age",
+      "filter-by-gender": "By gender",
+      "filter-by-under-18": "By children under 18 living at home",
+      "filter-by-income": "By income level",
+      "filter-by-marital-status": "By marital status",
+      "filter-by-location": "By whether they live at home, apt, etc.",
+      "filter-by-education": "By highest level of education completed",
+      "filter-by-ethnicity": "By ethnicity",
+      "filter-by-language": "By language",
+      "filter-by-political-affiliation": "By political affiliation",
+      "filter-by-region": "By region (Town)",
+      "filter-by-government-assistance": "By type of government assistance received",
+      "span-title": "MY FILTERS",
+      "description": "You do not have any filters configured.",
+      "label-select": "Select a question",
+      "btn-back": "Back",
+      "btn-apply": "Apply",
+      "answered": "Answered:",
+      "skipped": "Skipped:",
+      "edit": "Edit Filter",
+      "delete": "Delete Filter",
+      "DeleteDialog": {
+        "header": "Confirm filter deletion",
+        "subheader": "You are about to delete this filter. This action is irreversible. Are you sure you want to proceed?",
+        "yes": "Yes, delete filter",
+        "no": "Cancel",
+        "toast-delete": "Filter deleted"
+      },
+      "Onboarding": {
+        "step-0": {
+          "title": "Welcome to the Report Generator!",
+          "content": "Explore our intuitive step-by-step report generator. We guide you on customizing your report and obtaining valuable insights."
+        },
+        "step-1": {
+          "title": "Naming and saving your report",
+          "content": "Use the <generate>Generate report</generate> button to generate and export your report in PDF, Excel or CSV."
+        },
+        "step-2": {
+          "title": "Custom and create your Filters",
+          "content": "Locate your created filters in the sidebar. Refine your results by adding new filters with the <add>Add Filter</add> button."
+        },
+        "step-3": {
+          "title": "Visualize the data clearly",
+          "content": "See concise summaries for each question, including a bar chart and metrics."
+        }
+      },
+      "add-to-dashboard": "Add to dashboard"
+    },
+    "Crosstab": {
+      "sidebar-title": "MY CROSSTABS",
+      "toast-error": "You must select both questions to proceed",
+      "description": "You do not have any crosstab configured.",
+      "btn-back": "Back",
+      "rows": "ROWS",
+      "columns": "COLUMNS",
+      "span-selectDates": "Select dates",
+      "empty": "You haven't created any crosstab yet. Get started by clicking the 'Add' button in the sidebar. Choose at least one start date and select the questions you want to crossover."
+    },
+    "Exports": {
+      "title": "Export report",
+      "pdf": "PDF file",
+      "excel": "Excel file",
+      "csv": "CSV file",
+      "graphs": "Graphs included",
+      "not-graphs": "Graphs not included",
+      "exportar": "Export",
+      "cancel": "Cancel"
+    },
+    "Table": {
+      "name": "NAME",
+      "responses": "RESPONSES",
+      "no": "NO.",
+      "total": "TOTAL"
+    },
+    "Onboarding": {
+      "step-0": {
+        "title": "Get help",
+        "content": "You can revisit the usage instructions from this icon. If you have any further questions, please contact <support>support@litdata.org</support>, and we'll be happy to assist you."
+      },
+      "step-1": {
+        "title": "Your analytics hub!",
+        "content": "Welcome to your centralized analytics dashboard. Unleash the power of data with intuitive report management. Dive into insights effortlessly."
+      },
+      "step-2": {
+        "title": "Report details at a glance",
+        "content": "Easily identify your report with its <title>Title</title> and <date>Creation date</date> displayed prominently on each card."
+      },
+      "step-3": {
+        "title": "Report type Indication",
+        "content": "Each card specifies the report type (<type>Filter or Crosstab</type>) A quick reference to streamline your analysis."
+      },
+      "step-4": {
+        "title": "Swift report management",
+        "content": "Efficiently manage with quick action buttons. <duplicate>Duplicate</duplicate> or <delete>Delete</delete> a report with a single click for easy control."
+      },
+      "step-5": {
+        "title": "Start creating your report",
+        "content": "Click <new>New Report</new> to begin. Choose between Filter or Crosstab to tailor your report type."
+      }
+    },
+    "CreateReportDialog": {
+      "header": "Create report",
+      "subheader": "You cannot create a new report because your company does not have the necessary permissions.",
+      "yes": "Contact with admin",
+      "no": "Cancel"
+    }
+  },
+  "Settings": {
+    "page-header": "Account Settings",
+    "sideBar": {
+      "settings": "SETTINGS",
+      "myAccount": "My Account"
+    },
+    "MyAccount": {
+      "title": "My Account",
+      "email": "Email",
+      "emailDesc": "Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia.",
+      "contact-btn": "Contact with support for change",
+      "password": "Password",
+      "passwordDesc": "You can set a permanent password if you don't want to use temporary login codes.",
+      "setPass": "Set New Password",
+      "AccountPanel": {
+        "change": "Change",
+        "profile": "Profile",
+        "profileDesc": "Update your profile to make it easier for other users to find",
+        "fullName": "Full Name",
+        "username": "User Name",
+        "country": "Country",
+        "website": "Website URL",
+        "description": "Short description",
+        "about": "About"
+      },
+      "PasswordDialog": {
+        "title": "Change password",
+        "newPassLabel": "New Password",
+        "passLabel": "Actual Password",
+        "validPass": "Use a password at least 8 characters long containing at least one alphabet and one number."
+      }
+    }
+  },
+  "Client-Home": {
+    "notification": "Your account is pending authorization. Our team is diligently reviewing your information to ensure a secure and seamless experience. Please allow some time for this process. We'll notify you as soon as your account is approved and ready for access. We appreciate your patience."
+  },
+  "Not-Found": {
+    "description": "Hmm...this page doesn't exist. Try searching for something else!",
+    "button": "Back To Dashboard"
+  },
+  "Users": {
+    "h1-title": "Users",
+    "h3-title": "All Users",
+    "btn-add": "Add User",
+    "placeholder-search": "Search...",
+    "dialog-create": {
+      "title-new": "New User",
+      "title-edit": "Edit User",
+      "label-email": "Email",
+      "invalid-email": "This is an invalid email",
+      "label-company": "Company",
+      "placeholder-company": "Meta",
+      "p": "It's a testing account?",
+      "check": "(This option will create an account with an active subscription.)",
+      "btn-cancel": "Cancel",
+      "btn-send": "Save Changes",
+      "toast-success": "User created, invitation email sent.",
+      "password-info": "Use a password at least 8 characters long containing at least one alphabet and one number."
+    },
+    "dialog-delete": {
+      "title": "Confirm user deletion",
+      "toast-success": "User deleted.",
+      "description": "You are about to delete this user. This action is irreversible. Are you sure you want to proceed?",
+      "btn-cancel": "Cancel",
+      "btn-yes": "Yes, delete user"
+    },
+    "table": {
+      "col-action": "Action",
+      "col-fullname": "Full Name *",
+      "col-role": "Role",
+      "col-phone": "Phone",
+      "col-mobile": "Mobile",
+      "col-email": "Email *",
+      "col-password": "Password",
+      "col-company": "Company",
+      "col-department": "Department",
+      "col-job-title": "Job title",
+      "col-address": "Address",
+      "col-country": "Country",
+      "col-zip": "Zip code",
+      "col-city": "City",
+      "col-group": "Group",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "user-details": {
+      "about": "About Me",
+      "no-info": "There's no information avaiable.",
+      "username": "Username",
+      "location": "Location",
+      "email": "Email",
+      "not-shared": "Not shared",
+      "users": "USERS",
+      "search": "Search…"
+    }
+  },
+  "Companies": {
+    "h1-title": "Companies & Questions",
+    "btn-add": "Add Company",
+    "placeholder-search": "Search by name...",
+    "dialog-create": {
+      "title-new": "New Company",
+      "title-edit": "Edit Company",
+      "label-email": "Email",
+      "invalid-email": "This is an invalid email",
+      "label-company": "Name of the company",
+      "btn-cancel": "Cancel",
+      "btn-send": "Save Changes",
+      "btn-delete": "Contact support to delete",
+      "toast-success": "Company created, invitation email sent."
+    },
+    "dialog-delete": {
+      "title": "Confirm company deletion",
+      "description": "You are about to delete this company. This action is irreversible. Are you sure you want to proceed?",
+      "btn-cancel": "Cancel",
+      "btn-yes": "Yes, delete company",
+      "toast-success": "Company deleted."
+    },
+    "table": {
+      "col-action": "ACTION",
+      "col-company": "Company",
+      "col-address": "Address",
+      "col-zip": "Zip code",
+      "col-city": "City",
+      "col-manager-address": "Manager Address",
+      "col-manager-city": "Manager City",
+      "col-manager-zip": "Manager Zip code",
+      "col-country": "Manager Country",
+      "col-phone": "Phone",
+      "col-mobile": "Mobile",
+      "col-department": "Manager Department",
+      "col-job-title": "Manager Job title",
+      "col-manager-contact": "Manager contact name",
+      "col-manager-contact-email": "Manager contact email",
+      "col-ap-contact-name": "AP contact name",
+      "col-ap-contact-email": "AP contact email",
+      "col-mk-contact-name": "MK contact name",
+      "col-mk-contact-email": "MK contact email",
+      "col-aditional-contact": "Aditional contact",
+      "col-aditional-email": "Aditional email",
+      "col-license-expire": "License expiry date",
+      "col-group": "Group",
+      "edit": "Edit",
+      "delete": "Delete",
+      "questions": "Questions"
+    },
+    "select-all": "Select all questions"
+  },
+  "syncData": {
+    "last-sync": "Last sync: ",
+    "log-created": "Log created ",
+    "import": "Import survey",
+    "select-survey": "Select survey",
+    "sync-logs": "Sync logs",
+    "active-survey": "Active surveys",
+    "synced": "Synced",
+    "from": "From:",
+    "to": "To:",
+    "sync": "Sync",
+    "legacy": "Legacy surveys (copies created)",
+    "copy": "Create a copy",
+    "assign": "Assign",
+    "rename": "Rename",
+    "ConfirmDialog": {
+      "alert": "Irreversibility Alert!",
+      "alert-desc": "The modifications you're about to make are irreversible. Please proceed with caution and ensure that you are absolutely certain about the changes you are making. Take a moment to review your decisions before proceeding. Are you sure you want to proceed?",
+      "toast-sync": "Your changes have been applied. Please note that it may take a few minutes for the updates to take effect."
+    }
+  },
+  "SignIn": {
+    "header": "Welcome back!",
+    "email": "Email",
+    "password": "Password",
+    "button": "Log in",
+    "forgot": "Forgot your password?"
+  },
+  "ForgotPass": {
+    "reset": "Reset your password",
+    "reset-desc": "Enter the email address associated with your account and we will send you a link to reset your password.",
+    "reset-verify": "Verify your email address",
+    "reset-verify-desc": "We have sent you an email with a link to recover your password.",
+    "email": "Email",
+    "password": "Password",
+    "confirm": "Confirm password"
+  },
+  "ChangePass": {
+    "change": "Change your password",
+    "expired": "The link to change the password has expired or is invalid",
+    "back": "Back to login"
+  }
+}
