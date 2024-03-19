@@ -28,6 +28,18 @@ interface ReportQuestionProps {
   isExport?: boolean
 }
 
+const questionsIds = [
+  '172714168',
+  '172717559',
+  '172725984',
+  '175291989',
+  '175292133',
+  '175292982',
+  '175293201',
+  '178893466',
+  '178893731',
+]
+
 function ReportQuestion({
   data: {answers, total, type, choices, matrixMap, id: questionId},
   isExport = false,
@@ -90,7 +102,7 @@ function ReportQuestion({
     <div className="flex flex-col items-center justify-center w-full gap-10">
       {trend === 1 ? (
         <>
-          {questionId === '172714168' && (
+          {questionsIds.includes(questionId) && (
             <HorizontalBars chartData={answers} type={type} matrixMap={matrixMap} />
           )}
 
